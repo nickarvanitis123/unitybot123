@@ -9,7 +9,17 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!ip') {
         message.channel.sendMessage('🔻**IP: UnityPvP.us**');
-      }
+
+    if(cmd === `${prefix}botinfo`){
+       
+      let botembed = new Discord.RichEmbed()
+      .setDescription("Bot Information")
+      .setColor("#ff0000")
+      .addField("Bot Name", bot.user.username);
+      
+      return message.channel.send(botembed);
+     }
+
 });
 
 // THIS  MUST  BE  THIS  WAY
