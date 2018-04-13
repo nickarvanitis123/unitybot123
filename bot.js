@@ -11,13 +11,8 @@ client.on('message', message => {
         message.channel.sendMessage('🔻**IP: UnityPvP.us**');
       }
 client.on('message', message => {
-    if (message.content === '!help') {
-        message.channel.sendMessage('  **Help Panel**
-Public-Commands:
-!help | Shows Bot's Help page.
-!ip | Shows the Server's IP.
-!store | Shows the Server's Store.
-UnityPvP Bot v1.3.0');
+    if (message.content === '!store') {
+        message.channel.sendMessage('🔻**Store: UnityPvP.buycraft.net**');
       }
 });
 
