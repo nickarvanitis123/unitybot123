@@ -10,7 +10,7 @@ client.on('message', message => {
     if (message.content === '!ip') {
         message.channel.sendMessage('🔻**IP: UnityPvP.us**');
 
-    if (message.content === '!ip'`){
+    if (message.content === '!test') {
         message.channel.sendMessage('🔻**IP: UnityPvP.us**');
        
       let botembed = new Discord.RichEmbed()
