@@ -8,9 +8,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!ip') {
     	message.channel.sendMessage('♦️**IP: UnityPvP.us**');
-        
-        message.channel.sendEmbed(Embed)
-    }
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
