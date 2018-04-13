@@ -11,23 +11,5 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === '!store') {
-    	message.channel.sendMessege('✅ Store: unitypvp.buycraft.net');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === '!info') {
-    	message.channel.sendMessege('✅ Coming Soon!');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === '!bot') {
-    	message.channel.sendMessege('✅ Coded by TryHard#3061');
-  	}
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
