@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!ip') {
+    if (message.content === '!bot') {
     	message.channel.sendMessege('✅ IP: UnityPvP.us');
   	}
 });
