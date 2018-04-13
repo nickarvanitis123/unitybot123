@@ -6,12 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+        Let embed = new Discord.RichEmbed
     if (message.content === '!ip') {
     	message.channel.sendMessage('♦️**IP: UnityPvP.us**');
-
-    if (message.content === '!store') {
-    	message.channel.sendMessage('♦️**Store: unitypvp.buycraft.net**');
-    } 
+        
+        message.channel.sendEmbed(embed)
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
