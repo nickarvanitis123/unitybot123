@@ -10,7 +10,8 @@ client.on('message', message => {
     if (message.content === '!ip') {
         message.channel.sendMessage('🔻**IP: UnityPvP.us**');
 
-    if(cmd === `${prefix}botinfo`){
+    if (message.content === '!ip'`){
+        message.channel.sendMessage('🔻**IP: UnityPvP.us**');
        
       let botembed = new Discord.RichEmbed()
       .setDescription("Bot Information")
