@@ -6,7 +6,6 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-        Let embed = new Discord.RichEmbed
     if (message.content === '!ip') {
     	message.channel.sendMessage('♦️**IP: UnityPvP.us**');
         
