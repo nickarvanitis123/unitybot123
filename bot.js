@@ -7,11 +7,11 @@ client.on('ready', () => {
 
 client.on('message', message => {
    if (message.content === '!ping') {
-   	  message.sendMessage('pong');
+   	  message.reply('pong');
    }
     
    if (message.content === '!pi') {
-      message.sendMessage('pong');
+      message.reply('pong');
   }
 });
 
