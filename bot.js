@@ -18,24 +18,28 @@ client.on('message', message => {
       message.reply('🔺**Coded By @TryHard#3061**');
    }
     
-   if (message.content === 'Hi') {
+   if (message.content === '!test5') {
       message.reply('🔺**Hey, Welcome to the Server!**');
    }
-   
-   if(command === "ban") {
-    // Most of this command is identical to kick, except that here we'll only let admins do it.
-    // In the real world mods could ban too, but this is just an example, right? ;)
-     if(!message.member.roles.some(r=>["Administrator"].includes(r.name)) )
-       return message.reply("Sorry, you don't have permissions to use this!");
     
-     let member = message.mentions.members.first();
-     if(!member)
-       return message.reply("Please mention a valid member of this server");
-     if(!member.bannable) 
-       return message.reply("I cannot ban this user! Do they have a higher role? Do I have ban permissions?");
-
-     let reason = args.slice(1).join(' ');
-     if(!reason) reason = "No reason provided";
+   if (message.content === '!test4') {
+      message.reply('🔺**Hey, Welcome to the Server!**');
+   }
+    
+   if (message.content === '!test3') {
+      message.reply('🔺**Hey, Welcome to the Server!**');
+   }
+    
+   if (message.content === '!test2') {
+      message.reply('🔺**Hey, Welcome to the Server!**');
+   }
+    
+   if (message.content === '!test1') {
+      message.reply('🔺**Hey, Welcome to the Server!**');
+   }
+    
+   if (message.content === '!test') {
+      message.reply('🔺**Hey, Welcome to the Server!**');
   }
 });
 
