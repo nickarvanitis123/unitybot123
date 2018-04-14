@@ -6,12 +6,20 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-   if (message.content === '!ping') {
-   	  message.reply('pong');
+   if (message.content === '!store') {
+   	  message.reply('🔺**Store: UnityPvP.buycraft.net**');
    }
     
-   if (message.content === '!pi') {
-      message.reply('pong');
+   if (message.content === '!ip') {
+      message.reply('🔺**IP: unitypvp.us**');
+   }
+    
+   if (message.content === '!bot') {
+      message.reply('🔺**Coded By @TryHard#3061**');
+   }
+    
+   if (message.content === 'Hi') {
+      message.reply('🔺**Hey, Welcome to the Server!**');
   }
 });
 
