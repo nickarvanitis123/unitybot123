@@ -10,7 +10,7 @@ client.on('message', message => {
    	  message.sendMessage('pong');
    }
     
-   if (message.content === '!ping') {
+   if (message.content === '!pi') {
       message.sendMessage('pong');
   }
 });
