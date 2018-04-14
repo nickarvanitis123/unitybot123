@@ -1,11 +1,10 @@
-{ "token"  : "NDM0MTEyNzU2ODc1MjY0MDEx.DbOKDQ.Kxtwqvy-X_TpFdnqZ-BawTRf6eU",
-  "prefix" : "!"
-  }
+{
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
+  "prefix" : "+"
     "start": "node bot.js"
   },
   "dependencies": {
@@ -13,4 +12,3 @@
     "request": "2.81.0"
   }
 }
-
