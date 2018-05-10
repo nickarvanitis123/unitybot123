@@ -7,23 +7,23 @@ client.on('ready', () => {
 
 client.on('message', message => {
    if (message.content === '!store') {
-   	  message.reply('🔺**Store: UnityPvP.buycraft.net**');
+   	  message.reply('🔺**Store: UnityPvPStore.ga**');
    }
     
    if (message.content === '!ip') {
-      message.reply('🔺**IP: unitypvp.us**');
+      message.reply('🔺**IP: play.unitypvp.us**');
    }
     
    if (message.content === '!bot') {
       message.reply('🔺**Coded By @TryHard#3061**');
    }
     
-   if (message.content === '!test5') {
-      message.reply('🔺**Hey, Welcome to the Server!**');
+   if (message.content === '!twitter') {
+      message.reply('🔺**https://twitter.com/OFUnityPvP**');
    }
     
-   if (message.content === '!test4') {
-      message.reply('🔺**Hey, Welcome to the Server!**');
+   if (message.content === '!website') {
+      message.reply('🔺**unitypvp.club**');
    }
     
    if (message.content === '!test3') {
