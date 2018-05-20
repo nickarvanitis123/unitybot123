@@ -19,7 +19,7 @@ client.on('message', message => {
    }
     
    if (message.content === '!ping') {
-      message.message(':cyclone: **pong**');
+      message.message(':cyclone: **testy**');
    }
     
    if (message.content === '!roast') {
