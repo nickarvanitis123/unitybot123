@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const botconfig = require('./botconfig.json');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -37,7 +38,7 @@ client.on('message', message => {
 
 
 
-  if(message.content === '!test12'){
+  if(cmd === `${prefix}serverinfo`){
 
     let sicon = message.guild.iconURL;
     let serverembed = new Discord.RichEmbed()
