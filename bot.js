@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const botconfig = require('./botconfig.json');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -20,7 +19,7 @@ client.on('message', message => {
    }
     
    if (message.content === '!ping') {
-      message.message(':cyclone: **testy**');
+      message.reply(':cyclone: **testy**');
    }
     
    if (message.content === '!roast') {
@@ -28,30 +27,6 @@ client.on('message', message => {
    }
     
    if (message.content === '!test3') {
-      message.sendMessage('🔺**Hey, Welcome to the Server!**');
-   }
-    
-   if (message.content === '!test2') {
-      message.reply('🔺**Hey, Welcome to the Server!**');
-  }
-
-
-
-
-   if(message.content === '!adf'){
-
-     let serverembed = new Discord.RichEmbed()
-     .setDescription("Server Information")
-     .setColor("#15f153")
-     .addField("Server Name", message.guild.name)
-     .addField("Created On", message.guild.createdAt)
-     .addField("You Joined", message.member.joinedAt)
-     .addField("Total Members", message.guild.memberCount);
-
-     return message.channel.send(serverembed);
-  }
-    
-   if (message.content === '!test') {
       message.reply('🔺**Hey, Welcome to the Server!**');
   }
 });
