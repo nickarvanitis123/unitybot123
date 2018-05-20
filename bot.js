@@ -6,12 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-   if (message.content === '!store') {
-   	  message.reply('🔺**Store: UnityPvPStore.ga**');
+   if (message.content === '!shop') {
+   	  message.reply(':cyclone:**https://selly.gg/u/CountingAlts**');
    }
     
-   if (message.content === '!ip') {
-      message.reply('🔺**IP: play.unitypvp.us**');
+   if (message.content === '!coupon') {
+      message.reply(':cyclone:**10%OFF: 1snj9vxadoc**');
    }
     
    if (message.content === '!bot') {
