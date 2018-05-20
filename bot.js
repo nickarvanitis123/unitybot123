@@ -27,7 +27,7 @@ client.on('message', message => {
    }
     
    if (message.content === '!test3') {
-      message.reply('🔺**Hey, Welcome to the Server!**');
+      message.sendMessage('🔺**Hey, Welcome to the Server!**');
    }
     
    if (message.content === '!test2') {
